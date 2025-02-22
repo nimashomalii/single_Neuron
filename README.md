@@ -14,6 +14,13 @@ In the code I wrote, I built a neuron with two inputs and one bias to train on t
 Below is the graph of the loss function with respect to the epochs. Even after 10,000 training iterations, the loss has remained nearly the same as before.
 
 ![image](https://github.com/user-attachments/assets/f954c2ad-2f67-4e2e-9ec7-1f835dc6435b)
+Next, I built a neuron that takes 14 inputs! These 14 inputs include the raw features, the pairwise products of the features, and various powers of the features.
+Therefore, 14 features are fed into a single neuron.
+After training the neuron, the loss function will appear as shown below.
 
+
+![image](https://github.com/user-attachments/assets/1ecaf9cd-a46a-46a9-83f8-8ba9c3599188)
+
+Finally, we used this neuron to predict the model's output. The data labels were predicted using this model and then plotted accordingly.
 
 ![image](https://github.com/user-attachments/assets/cfcaf1c4-ad82-4dc9-90e5-120545072cec)
